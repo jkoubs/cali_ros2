@@ -3,7 +3,7 @@ version: '3' # version of docker-compose
 services:
   tasks: # name of the container
     image: cali_ros2:latest
-    container_name: goal_checker_container
+    container_name: cali_ros2_container
     network_mode: host
     privileged: true
     volumes:
